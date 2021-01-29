@@ -1,0 +1,82 @@
+body{
+    background-color: #ffefd5;
+    color: #8b4513;
+    margin: 1% 1% 0% 1%;
+}
+table{
+    width: 300px;
+}
+table, th{
+    border-collapse: collapse;
+    border: 1px solid grey;
+    margin-left: 27%;
+}
+th{
+   text-align: left;
+   padding-left: 9px;
+}
+.szintelen{
+    width: 120px;
+    text-align: center;
+}
+.sarga{
+    width: 120px;
+    background-color: lightyellow;
+    text-align: center;
+}
+.zold{
+    width: 120px;
+    background-color: chartreuse;
+    text-align: center;
+}
+.piros{
+    width: 120px;
+    background-color: rgb(228, 87, 87);
+    text-align: center;
+}
+.lila{
+    width: 120px;
+    background: rgb(175, 87, 175);
+    text-align: center;
+}
+.fokeret{
+    width: 70%;
+    height: 125px;
+    background-image: url("szines.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tartalom1{
+    margin-top: 2%;
+    margin-left: 36%;
+    margin-right:16%;
+} 
+.tartalom2{
+    margin-top: -20%;
+    margin-left: 36%;
+    margin-right: 16%;
+}   
+h1{
+    color: black;
+    margin-top: -14px;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+.menu{
+    margin-top: -10%;
+    margin-left: 16%;
+    margin-right: 68%;
+}
+li{
+    list-style-image: url("chili-pepper-icon.gif");
+    background-color: rgb(217, 234, 240);
+    margin-top: inherit;
+    border: 1px solid rgb(108, 108, 211);
+    padding-left: 9px;
+}
+a:link, a:visited, a:hover{
+    text-decoration: none;
+    color: black;
+}
